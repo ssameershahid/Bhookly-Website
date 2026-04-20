@@ -194,7 +194,7 @@ function HeroMocks() {
             <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" />Paid
           </span>
         </div>
-        <div className="mt-2 phk-serif text-3xl">$ 48.20</div>
+        <div className="mt-2 phk-serif text-3xl">Rs 4,820</div>
         <div className="mt-1 text-xs text-zinc-500">Visa · 4242 · 1 tap</div>
         <div className="mt-4 flex items-center justify-between border-t border-dashed border-zinc-200 pt-3">
           <div className="text-[11px] uppercase tracking-wider text-zinc-500">Server</div>
@@ -392,7 +392,7 @@ function AnalyticsMockup() {
   return (
     <div className="mb-5 overflow-hidden rounded-xl bg-[#fdf8f1] p-3.5 ring-1 ring-amber-100/60">
       <div className="mb-0.5 text-[10px] text-zinc-400">Today's Revenue</div>
-      <div className="phk-serif text-2xl text-[#1a1410]">₹ 48,420</div>
+      <div className="phk-serif text-2xl text-[#1a1410]">Rs 48,420</div>
       <div className="mt-0.5 flex items-center gap-1 text-[10px] font-medium text-emerald-600">
         <TrendingUp className="h-3 w-3" /> +12.4% vs yesterday
       </div>
@@ -412,7 +412,7 @@ function CheckoutMockup() {
   return (
     <div className="mb-5 overflow-hidden rounded-xl bg-[#fdf8f1] p-3.5 ring-1 ring-amber-100/60">
       <div className="mb-1 text-[10px] font-semibold uppercase tracking-wider text-zinc-400">Order #B-491 · Table 7</div>
-      <div className="phk-serif text-2xl text-[#1a1410]">$ 48.20</div>
+      <div className="phk-serif text-2xl text-[#1a1410]">Rs 4,820</div>
       <div className="mt-2.5 grid grid-cols-3 gap-1.5">
         {['Cash','Card','UPI'].map((m) => (
           <div key={m} className={`rounded-lg py-1.5 text-center text-[10px] font-semibold ${m==='Card'?'bg-[#1a1410] text-white':'bg-zinc-100 text-zinc-500'}`}>{m}</div>
@@ -420,7 +420,7 @@ function CheckoutMockup() {
       </div>
       <div className="mt-2.5 flex items-center justify-between border-t border-dashed border-zinc-200 pt-2">
         <span className="text-[10px] text-zinc-400">Split · 3 guests</span>
-        <span className="text-[10px] font-semibold text-emerald-700">$16.07 each</span>
+        <span className="text-[10px] font-semibold text-emerald-700">Rs 1,607 each</span>
       </div>
     </div>
   )
@@ -548,13 +548,13 @@ function ReceiptFeatureMockup() {
           <div className="space-y-0.5">
             {['Butter Chicken','Garlic Naan','Mango Lassi'].map((n) => (
               <div key={n} className="flex justify-between text-[7px] text-zinc-500">
-                <span className="truncate">{n}</span><span>₹280</span>
+                <span className="truncate">{n}</span><span>Rs 650</span>
               </div>
             ))}
           </div>
           <div className="my-1 border-t border-dashed border-zinc-100" />
           <div className="flex justify-between text-[7px] font-semibold text-[#1a1410]">
-            <span>TOTAL</span><span>₹840</span>
+            <span>TOTAL</span><span>Rs 1,950</span>
           </div>
           <div className="mt-1.5 rounded bg-amber-50 py-0.5 text-center text-[6px] font-medium text-amber-700">
             ✦ 10% off next visit
