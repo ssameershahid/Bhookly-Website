@@ -414,7 +414,7 @@ function CheckoutMockup() {
       <div className="mb-1 text-[10px] font-semibold uppercase tracking-wider text-zinc-400">Order #B-491 · Table 7</div>
       <div className="phk-serif text-2xl text-[#1a1410]">Rs 4,820</div>
       <div className="mt-2.5 grid grid-cols-3 gap-1.5">
-        {['Cash','Card','UPI'].map((m) => (
+        {['Cash','Card','Online'].map((m) => (
           <div key={m} className={`rounded-lg py-1.5 text-center text-[10px] font-semibold ${m==='Card'?'bg-[#1a1410] text-white':'bg-zinc-100 text-zinc-500'}`}>{m}</div>
         ))}
       </div>
@@ -802,7 +802,7 @@ const FAQS = [
     a: "As many as you need. Bhookly is built for multi-device environments — a tablet for every waiter, a counter terminal, a kitchen display, and a manager's dashboard can all run simultaneously on the same restaurant account.",
   },
   {
-    q: 'Does it integrate with Zomato, Swiggy, or other delivery platforms?',
+    q: 'Does it integrate with Foodpanda or other delivery platforms?',
     a: "Delivery platform integrations are actively in development. In the meantime, online orders can be manually entered into the system in seconds. We'll notify early-access restaurants the moment integrations go live.",
   },
   {
