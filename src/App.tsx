@@ -720,24 +720,24 @@ function FeaturesSection() {
 const TESTIMONIALS = [
   {
     quote: "We were managing everything on paper and WhatsApp. Bhookly changed that in a single day. Our kitchen team actually wants to use it — which has never happened with any software before.",
-    name: 'Riya Desai',
-    role: 'Owner',
-    restaurant: 'Spice Route Bistro',
-    city: 'Mumbai',
+    name: 'Ahmad Zubair',
+    role: 'Operations Manager',
+    restaurant: 'Bolt',
+    city: 'Islamabad',
   },
   {
     quote: "The table layout builder alone saved us from so much confusion during peak hours. And the analytics finally gave us a real picture of what's actually selling versus what we think is selling.",
-    name: 'Arjun Mehta',
-    role: 'Co-founder',
-    restaurant: 'The Breakfast Club',
-    city: 'Pune',
+    name: 'Ghaniya Sakrani',
+    role: 'Co-Founder',
+    restaurant: 'Sweet Moments',
+    city: 'Lahore',
   },
   {
     quote: "Setup took less than a morning. By dinner service we were fully live. I've onboarded three POS systems over the years — this is by far the fastest I've ever seen a team get comfortable.",
-    name: 'Fatima Shaikh',
-    role: 'Operations Manager',
-    restaurant: 'Harbour House',
-    city: 'Chennai',
+    name: 'Athar Malik',
+    role: 'Owner',
+    restaurant: 'LVL 50 Resorts',
+    city: 'Murree',
   },
 ]
 
