@@ -860,9 +860,9 @@ function FAQSection() {
             <p className="mt-4 text-[14px] leading-relaxed text-zinc-500">
               Still have questions? Reach out — we reply on the same day.
             </p>
-            <a href="mailto:hello@bhookly.com"
+            <a href="mailto:hey@bhookly.com"
                className="mt-5 inline-flex items-center gap-2 text-[14px] font-semibold text-orange-600 hover:text-orange-700">
-              hello@bhookly.com <ArrowRight className="h-4 w-4" />
+              hey@bhookly.com <ArrowRight className="h-4 w-4" />
             </a>
           </div>
 
@@ -925,7 +925,7 @@ function SignupSection() {
                 </div>
                 <div>
                   <div className="text-[11px] font-semibold uppercase tracking-wider text-zinc-400">Email us</div>
-                  <a href="mailto:hello@bhookly.com" className="font-medium text-orange-600 hover:text-orange-700">hello@bhookly.com</a>
+                  <a href="mailto:hey@bhookly.com" className="font-medium text-orange-600 hover:text-orange-700">hey@bhookly.com</a>
                 </div>
               </div>
               <div className="flex items-center gap-3">
