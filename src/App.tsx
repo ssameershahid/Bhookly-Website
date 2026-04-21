@@ -934,7 +934,7 @@ function SignupSection() {
                 </div>
                 <div>
                   <div className="text-[11px] font-semibold uppercase tracking-wider text-zinc-400">WhatsApp / Call</div>
-                  <a href="tel:+919800000000" className="font-medium text-orange-600 hover:text-orange-700">+91 98000 00000</a>
+                  <a href="tel:+923215304887" className="font-medium text-orange-600 hover:text-orange-700">+92 321 5304887</a>
                 </div>
               </div>
             </div>
