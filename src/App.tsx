@@ -720,9 +720,9 @@ function FeaturesSection() {
 const TESTIMONIALS = [
   {
     quote: "We were managing everything on paper and WhatsApp. Bhookly changed that in a single day. Our kitchen team actually wants to use it — which has never happened with any software before.",
-    name: 'Ahmad Zubair',
-    role: 'Operations Manager',
-    restaurant: 'Bolt',
+    name: 'Ibrahim Imran',
+    role: 'Co-Founder',
+    restaurant: 'Cova Cafe',
     city: 'Islamabad',
   },
   {
